@@ -1,4 +1,3 @@
-
 import {
   Flower2,
   Sparkles,
@@ -68,6 +67,7 @@ export const commonNotes: string[] = Array.from(new Set([
   "Almendras",
   "Almizcle",
   "Ámbar",
+  "Ante",
   "Azafrán",
   "Azucena",
   "Bergamota",
@@ -77,9 +77,11 @@ export const commonNotes: string[] = Array.from(new Set([
   "Cardamomo",
   "Cedro",
   "Cereza",
+  "Chocolate blanco",
   "Ciruela",
   "Clavo",
   "Coco",
+  "Crema chantilly",
   "Cuero",
   "Dulce de Leche",
   "Durazno",
@@ -503,7 +505,7 @@ export const zaraFragrances: Fragrance[] = [
     category: "Mujer",
     scentFamily: "Floral",
     notes: { top: ["Bergamota"], middle: ["Rosa"], base: ["Almizcle"] },
-    description: "Aroma floral y sofisticado inspirado en Londres.",
+    description: "Aroma floral and sofisticado inspirado en Londres.",
     equivalence: "DELINA PARFUMS DE MARLY",
   },
   {
@@ -731,6 +733,14 @@ export const zaraFragrances: Fragrance[] = [
     notes: { top: ["Salvia"], middle: ["Jazmín"], base: ["Almizcle"] },
     description: "Estilo floral limpio y aromático.",
   },
+  {
+    id: 67,
+    name: "COCOA & LATTE",
+    category: "Mujer",
+    scentFamily: "Gourmand",
+    notes: { top: ["Crema chantilly"], middle: ["Chocolate blanco"], base: ["Ante"] },
+    description: "La crema chantilly abre la composición con una suavidad aterciopelada que se mezcla con la dulzura cremosa del chocolate blanco. El acorde de ante introduce una textura elegante y ligeramente cálida que equilibra el carácter gourmand con una sofisticación envolvente.",
+  },
 
   // HOMBRE
   {
@@ -790,7 +800,7 @@ export const zaraFragrances: Fragrance[] = [
     category: "Hombre",
     scentFamily: "Amaderada",
     notes: { top: ["Bergamota"], middle: ["Cardamomo"], base: ["Sándalo"] },
-    description: "Elegancia masculina moderna en concentración Eau de Parfum.",
+    description: "Elegancia masculina moderna en concentration Eau de Parfum.",
     equivalence: "Dior Homme",
   },
   {
@@ -1217,7 +1227,7 @@ export const zaraFragrances: Fragrance[] = [
   },
   {
     id: 312,
-    name: "Zara Team 67",
+    name: "Team 67 Team",
     category: "Niños & Niñas",
     scentFamily: "Cítrica",
     notes: { top: ["Notas cítricas"], middle: ["Notas verdes"], base: ["Cedro"] },
